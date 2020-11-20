@@ -6,7 +6,7 @@ class CashRegister
       @total = 0
       @items = []
       @last_item = [] 
-    end 
+   end  
     
     def apply_discount
       if discount != 0 
